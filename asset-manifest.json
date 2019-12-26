@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/watchtoday/static/css/main.36c96bcc.chunk.css",
-    "main.js": "/watchtoday/static/js/main.8061e221.chunk.js",
-    "main.js.map": "/watchtoday/static/js/main.8061e221.chunk.js.map",
+    "main.js": "/watchtoday/static/js/main.f2e651f9.chunk.js",
+    "main.js.map": "/watchtoday/static/js/main.f2e651f9.chunk.js.map",
     "runtime-main.js": "/watchtoday/static/js/runtime-main.d632f303.js",
     "runtime-main.js.map": "/watchtoday/static/js/runtime-main.d632f303.js.map",
-    "static/js/2.86b4d9a5.chunk.js": "/watchtoday/static/js/2.86b4d9a5.chunk.js",
-    "static/js/2.86b4d9a5.chunk.js.map": "/watchtoday/static/js/2.86b4d9a5.chunk.js.map",
+    "static/js/2.b03a9900.chunk.js": "/watchtoday/static/js/2.b03a9900.chunk.js",
+    "static/js/2.b03a9900.chunk.js.map": "/watchtoday/static/js/2.b03a9900.chunk.js.map",
     "index.html": "/watchtoday/index.html",
-    "precache-manifest.711672c73005a3a236c142707625fece.js": "/watchtoday/precache-manifest.711672c73005a3a236c142707625fece.js",
+    "precache-manifest.345daccbfa10ea42ee53a1662bc2bb0a.js": "/watchtoday/precache-manifest.345daccbfa10ea42ee53a1662bc2bb0a.js",
     "service-worker.js": "/watchtoday/service-worker.js",
     "static/css/main.36c96bcc.chunk.css.map": "/watchtoday/static/css/main.36c96bcc.chunk.css.map",
-    "static/js/2.86b4d9a5.chunk.js.LICENSE": "/watchtoday/static/js/2.86b4d9a5.chunk.js.LICENSE",
+    "static/js/2.b03a9900.chunk.js.LICENSE": "/watchtoday/static/js/2.b03a9900.chunk.js.LICENSE",
     "static/media/loading.gif": "/watchtoday/static/media/loading.7d02b50b.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.d632f303.js",
-    "static/js/2.86b4d9a5.chunk.js",
+    "static/js/2.b03a9900.chunk.js",
     "static/css/main.36c96bcc.chunk.css",
-    "static/js/main.8061e221.chunk.js"
+    "static/js/main.f2e651f9.chunk.js"
   ]
 }
