@@ -42,7 +42,11 @@ export default function MovieView({ match }) {
           </div>
           : movie ? (
             <div className="brand">
-              <div className="poster"><img src={Poster} alt="" /></div>
+              <div className="poster">
+                <span className="posterimgcontainer">
+                  <img src={Poster} alt="" />
+                </span>
+              </div>
               <div className="info">
                 <div className="title">{Title}</div>
                 <span className="rated">{Rated}</span>

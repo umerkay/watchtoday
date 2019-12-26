@@ -7,7 +7,7 @@ import MoviesContainer from "./Components/MoviesContainer";
 import Search from "./Components/Search";
 import MovieView from "./Components/MovieView";
 
-import { Link, BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Link, HashRouter as Router, Route, Switch } from 'react-router-dom';
 import { useBottomScrollListener } from 'react-bottom-scroll-listener';
 
 import { reducer, initialState } from './Reducer';
@@ -68,17 +68,19 @@ const App = () => {
       });
   };
 
+  const baseUrl = "" //process.env.PUBLIC_URL;
+
   return (
     <div className="App">
       <Router>
         <Switch>
-          <Route path="/" exact render={props => (<>
+          <Route path={baseUrl + "/"} exact render={props => (<>
             <Header focus={true} />
             <Search search={search} />
           </>
           )}></Route>
 
-          <Route path="/search/:q/:page?" render={props => (<>
+          <Route path={baseUrl + "/search/:q/:page?"} render={props => (<>
             <Header focus={!movies.length && !loading} />
             <Search search={search} />
             <MoviesContainer
@@ -87,12 +89,12 @@ const App = () => {
               loading={loading}
               search={search}
               {...props}
-            >
+              >
             </MoviesContainer>
           </>
           )}></Route>
 
-          <Route path="/movie/:id" render={props => (<>
+          <Route path={baseUrl + "/movie/:id"} render={props => (<>
             <Header focus={false} />
             <Search search={search} />
             <MovieView

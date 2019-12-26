@@ -231,16 +231,22 @@
     grid-template-columns: 1fr 6fr;
     gap: 2rem;
     .poster {
-      padding: 0.5rem;
-      // background-color: #111;
-      background: linear-gradient(
-        90deg,
-        rgba(5, 0, 96, 1) 0%,
-        rgba(163, 0, 212, 1) 37%,
-        rgba(28, 107, 185, 1) 87%
-      );
-      img {
-        border: 5px solid white;
+      display: flex;
+      justify-content: center;
+      .posterimgcontainer {
+        height: fit-content;
+        display: inline-block;
+        padding: 0.5rem;
+        // background-color: #111;
+        background: linear-gradient(
+          90deg,
+          rgba(5, 0, 96, 1) 0%,
+          rgba(163, 0, 212, 1) 37%,
+          rgba(28, 107, 185, 1) 87%
+        );
+        img {
+          border: 5px solid white;
+        }
       }
     }
     .title {
@@ -290,6 +296,7 @@
     .plot {
       font-size: 1rem;
       margin-top: 2rem;
+      text-align: justify;
     }
     .imdbRating {
       margin-top: 1rem;
@@ -336,6 +343,11 @@
   .movies {
     grid-template-columns: 1fr 1fr 1fr;
   }
+  .movieview {
+    .brand {
+      grid-template-columns: 1fr 9fr;
+    }
+  }
   .movie {
     .poster {
       width: 190px;
@@ -353,6 +365,11 @@
   .movie {
     .poster {
       width: 210px;
+    }
+  }
+  .movieview {
+    .brand {
+      grid-template-columns: 1fr;
     }
   }
   .App-header {
@@ -376,6 +393,11 @@
   .movie {
     .poster {
       width: 100%;
+    }
+  }
+  .movieview {
+    .brand {
+      grid-template-columns: 1fr;
     }
   }
   .App-header {
