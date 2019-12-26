@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b17294da99a3386c38f9eff71550eebd",
+    "revision": "2789b60eda7f485cd41f5fa76c9c4d87",
     "url": "/watchtoday/index.html"
   },
   {
-    "revision": "6f49cd99221b0fffbd05",
-    "url": "/watchtoday/static/css/main.48d3346d.chunk.css"
+    "revision": "bbda5cf55e5b7e414e98",
+    "url": "/watchtoday/static/css/main.b0303b98.chunk.css"
   },
   {
     "revision": "efe9998fae035f6c21f2",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/watchtoday/static/js/2.0235b1fe.chunk.js.LICENSE"
   },
   {
-    "revision": "6f49cd99221b0fffbd05",
+    "revision": "bbda5cf55e5b7e414e98",
     "url": "/watchtoday/static/js/main.1eea7262.chunk.js"
   },
   {
