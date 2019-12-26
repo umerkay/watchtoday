@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/watchtoday/static/css/main.48d3346d.chunk.css",
+    "main.js": "/watchtoday/static/js/main.3bd0124f.chunk.js",
+    "main.js.map": "/watchtoday/static/js/main.3bd0124f.chunk.js.map",
+    "runtime-main.js": "/watchtoday/static/js/runtime-main.d632f303.js",
+    "runtime-main.js.map": "/watchtoday/static/js/runtime-main.d632f303.js.map",
+    "static/js/2.0235b1fe.chunk.js": "/watchtoday/static/js/2.0235b1fe.chunk.js",
+    "static/js/2.0235b1fe.chunk.js.map": "/watchtoday/static/js/2.0235b1fe.chunk.js.map",
+    "index.html": "/watchtoday/index.html",
+    "precache-manifest.4a0af832184cae8325e76345d1097cc6.js": "/watchtoday/precache-manifest.4a0af832184cae8325e76345d1097cc6.js",
+    "service-worker.js": "/watchtoday/service-worker.js",
+    "static/css/main.48d3346d.chunk.css.map": "/watchtoday/static/css/main.48d3346d.chunk.css.map",
+    "static/js/2.0235b1fe.chunk.js.LICENSE": "/watchtoday/static/js/2.0235b1fe.chunk.js.LICENSE",
+    "static/media/loading.gif": "/watchtoday/static/media/loading.7d02b50b.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d632f303.js",
+    "static/js/2.0235b1fe.chunk.js",
+    "static/css/main.48d3346d.chunk.css",
+    "static/js/main.3bd0124f.chunk.js"
+  ]
+}
